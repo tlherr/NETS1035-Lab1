@@ -16,7 +16,9 @@ def main(argv):
     todecrypt = ''
 
     try:
-        opts, args = getopt.getopt(argv, "hi:o:", ["encrypt=", "decrypt="])
+        # options is the string of option letters that the script wants to recognize, with options that require an
+        # argument followed by a colon
+        opts, args = getopt.getopt(argv, "e:d:", ["encrypt=", "decrypt="])
     except getopt.GetoptError:
         print('question2.py -e <toencrypt> -d <todecrypt>')
         sys.exit(2)

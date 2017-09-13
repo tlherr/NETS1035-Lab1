@@ -9,4 +9,6 @@
 #
 # Dtz rzxy qnpj ijhwduynsl ymnslx?
 
-# Brute force
+encrypted = "Dtz rzxy qnpj ijhwduynsl ymnslx?"
+
+# Attempt +40 to -40 char shift
